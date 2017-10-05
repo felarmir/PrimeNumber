@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIView *blackBox;
+@property (nonatomic, weak) IBOutlet UILabel *numberLabel;
+@property (nonatomic, weak) IBOutlet UIButton *hideShowButton;
+
+- (IBAction)hideShowAction:(UIButton*)sender;
 
 @end
 
